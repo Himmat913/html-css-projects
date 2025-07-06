@@ -1,0 +1,112 @@
+* {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #fafafa;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+h1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 28px;
+}
+
+.header-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+#login {
+    font-weight: normal;
+    color: white;
+    background-color: #007bff;
+}
+
+#signup {
+    font-weight: bold;
+    color: white;
+    background-color: #28a745;
+}
+
+.follow {
+    font-size: 14px;
+    color: #c82333;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #f8d7da;
+}
+
+nav ul li a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #343a40;
+}
+
+h3 {
+    font-size: 20px;
+    text-align: left;
+    text-transform: capitalize;
+    color: #2e3b4e;
+}
+
+h3 + span {
+    letter-spacing: 1px;
+    background-color: #e2e3e5;
+}
+
+nav > ul {
+    font-size: 15px;
+}
+
+input[type="text"] {
+    color: #495057;
+    background-color: #ffffff;
+}
+
+input[type="password"] {
+    background-color: #fff3cd;
+    color: #856404;
+}
+
+button {
+    font-weight: bold;
+    background-color: #dee2e6;
+    color: #212529;
+}
+
+button:hover,
+h3:hover {
+    background-color: #ced4da;
+    cursor: pointer;
+}
+
+p {
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #e9ecef;
+    color: #212529;
+}
+
+h3:active {
+    color: darkcyan;
+}
+
+input[type="radio"]:checked + label {
+    color: #6fa0ea;
+}
+
+div:nth-of-type(2n) {
+    background-color: #c82333;
+}
+
+h1::first-letter {
+    text-decoration: underline;
+}
